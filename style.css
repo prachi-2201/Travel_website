@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,700;1,400&family=Lato:wght@400;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -35,7 +36,7 @@ li {
 }
 
 .bold {
-    font-weight: 900;
+    font-weight: bolder;
 }
 
 .disp-flex {
@@ -57,7 +58,7 @@ li {
 
 .contact-us {
     padding: 10px 25px;
-    border: 3px solid ;
+    border: 3px solid;
     border-radius: 7px;
     font-size: 21px;
     letter-spacing: -1px;
@@ -68,11 +69,13 @@ li {
 }
 
 .col {
-    width: 600px
+    width: 600px;
+    margin-top: 40px;
 }
 
 .head {
     margin: 40px;
+    margin-top: 100px;
     justify-content: space-evenly;
 
 }
@@ -114,6 +117,7 @@ li {
     font-weight: 900;
     font-family: "Lato";
     text-align: center;
+
 }
 
 .img_banner1 {
@@ -122,9 +126,10 @@ li {
 }
 
 .vlog {
-    height: 28rem;
+    height: auto;
     background-color: #232323;
     text-align: center;
+    padding: 53px 0;
 }
 
 .align-center {
@@ -154,6 +159,7 @@ li {
 }
 
 .vlog_button {
+    margin-bottom: 20px;
     border-radius: 5px;
     padding: 15px;
     width: 200px;
@@ -199,6 +205,281 @@ li {
     font-family: "Lato";
 }
 
+.plane {
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 60px;
+}
+
+.info {
+    margin: 0 auto;
+}
+
+.info_title {
+    font-size: 98px;
+    letter-spacing: -2px;
+    line-height: 98px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+    text-align: center;
+    text-wrap: wrap;
+}
+
+.info_subinfo {
+    margin-top: 70px;
+    height: 61px;
+    font-size: 25px;
+    letter-spacing: -1px;
+    color: #232323;
+    font-weight: 900;
+    font-family: "Lato";
+    text-align: center;
+}
+
+u {
+    text-underline-offset: 7px;
+    text-decoration-thickness: 5px;
+}
+
+.info-wrapper {
+    margin-top: 80px;
+    justify-content: space-between;
+}
+
+.info_photo,
+.info2_photo {
+    width: 240px;
+}
+
+.info_photo {
+    font-size: 36px;
+    letter-spacing: -1px;
+    line-height: 50px;
+    text-decoration: underline;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+}
+
+.info2_photo {
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #232323;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: left;
+}
+
+.img_info {
+    width: 80%;
+}
+
+.arrow {
+    margin-top: 30px;
+    text-align: right;
+}
+
+.hgt {
+    text-align: left;
+    color: #e9e7e7;
+}
+
+.add-title {
+    margin-bottom: 50px;
+    font-size: 55px;
+    letter-spacing: -1px;
+    line-height: 55px;
+    color: #e9e7e7;
+    font-weight: 700;
+    font-family: "Cardo";
+}
+
+.add-subtitle {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    letter-spacing: -1px;
+    color: #e9e7e7;
+    font-weight: 900;
+    font-family: "Lato";
+}
+
+.add-info {
+
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #e9e7e7;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: left;
+}
+
+.mod_title {
+    font-size: 51px;
+    letter-spacing: -2px;
+    line-height: 51px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+    padding-bottom: 100px;
+}
+
+.wd-740 {
+    width: 730px;
+    margin-top: 70px;
+}
+
+.wd-390 {
+    width: 390px;
+    margin-top: 70px;
+}
+
+.mod_info {
+    padding: 20px 45px;
+    line-height: 20px;
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #232323;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: left;
+}
+
+.plus {
+    margin-left: auto;
+}
+
+.hr {
+    border: 1px solid;
+}
+
+.f_title {
+    font-size: 51px;
+    letter-spacing: -2px;
+    line-height: 51px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+    text-align: center;
+}
+
+.colm {
+    border: 4px solid;
+    padding: 30px 0;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.js-center {
+    justify-content: center;
+    gap: 30px;
+}
+
+.profile_img {
+    margin-top: 30px;
+    padding-top: 20px;
+    background-image: url(images/profile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.name {
+    font-size: 25px;
+    letter-spacing: -1px;
+    color: #232323;
+    font-weight: 900;
+    font-family: "Lato";
+    text-align: center;
+}
+
+.feed {
+    padding: 30px 35px;
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #6d6d6d;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+}
+.wd-660{
+    width: 660px;
+}
+.wd-440{
+    width: 440px;
+}
+.form-title{
+   
+    font-size: 65px;
+letter-spacing: -2px;
+line-height: 65px;
+color: #232323;
+font-weight: 700;
+font-family: "Cardo";
+margin-bottom: 10px;
+}
+input,textarea{
+    background-color: #e9e7e7;
+    margin-top: 30px;
+    padding: 10px;
+    width: 235px;
+    font-size: 20px;
+    line-height: 30px;
+    border: 3px solid;
+    border-radius: 5px;
+}
+.email
+{
+    margin-top: 50px;
+    width: 235px;
+    padding: 10px;
+    text-wrap:wrap;
+}
+.wd-230{
+    width: 230px;
+}
+.wd-800{
+    width: 800px;
+}
+.links{
+    margin: 0;
+    justify-content: space-between;
+}
+.footer-title{
+    font-size: 63px;
+letter-spacing: -2px;
+line-height: 63px;
+color: #232323;
+font-weight: 700;
+font-family: "Cardo";
+}
+.link{
+    font-size: 25px;
+letter-spacing: -1px;
+line-height: 50px;
+color: #232323;
+font-weight: 900;
+font-family: "Lato";
+}
+.wd-130{
+    width: 130px;
+}
+p{
+    padding: 5px 0;
+    margin: 5px 0;
+}
+
+.footer{
+    font-size: 21px;
+letter-spacing: -1px;
+line-height: 50px;
+color: #232323;
+font-weight: 400;
+font-family: "Lato";
+text-align: center;
+text-decoration: underline;
+}
 /* @media (max-width:900px) {
     
     .col{
