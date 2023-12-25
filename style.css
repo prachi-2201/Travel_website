@@ -27,7 +27,7 @@ li {
 .menu-items {
     padding: 0 15px;
     margin: 5px;
-    font-size: 21px;
+    font-size: 6vw;
     letter-spacing: -1px;
     color: #232323;
     /* font-weight: 900; */
@@ -60,7 +60,7 @@ li {
     padding: 10px 25px;
     border: 3px solid;
     border-radius: 7px;
-    font-size: 21px;
+    font-size: 6vw;
     letter-spacing: -1px;
     color: #232323;
     font-weight: 900;
@@ -81,7 +81,7 @@ li {
 }
 
 .head-title {
-    font-size: 54px;
+    font-size: 15vw;
     letter-spacing: -2px;
     line-height: 81px;
     color: #232323;
@@ -106,12 +106,12 @@ li {
 }
 
 .reserve {
-    width: 130px;
-    height: 45px;
+    width: 140px;
+    height: 65px;
     border-radius: 5px;
     background-color: #232323;
     background-color: #232323;
-    font-size: 21px;
+    font-size: 6vw;
     letter-spacing: -1px;
     color: #e9e7e7;
     font-weight: 900;
@@ -143,7 +143,7 @@ li {
 
 .vlog_title {
     padding-top: 53px;
-    font-size: 55px;
+    font-size: 12vw;
     letter-spacing: -1px;
     line-height: 55px;
     font-weight: 700;
@@ -165,7 +165,7 @@ li {
     width: 200px;
     border: 3px solid;
     margin-top: 50px;
-    font-size: 21px;
+    font-size: 6vw;
     letter-spacing: -1px;
     font-weight: 900;
     font-family: "Lato";
@@ -216,7 +216,7 @@ li {
 }
 
 .info_title {
-    font-size: 98px;
+    font-size: 18vw;
     letter-spacing: -2px;
     line-height: 98px;
     color: #232323;
@@ -287,7 +287,7 @@ u {
 
 .add-title {
     margin-bottom: 50px;
-    font-size: 55px;
+    font-size: 12vw;
     letter-spacing: -1px;
     line-height: 55px;
     color: #e9e7e7;
@@ -316,7 +316,7 @@ u {
 }
 
 .mod_title {
-    font-size: 51px;
+    font-size: 15vw;
     letter-spacing: -2px;
     line-height: 51px;
     color: #232323;
@@ -480,9 +480,41 @@ font-family: "Lato";
 text-align: center;
 text-decoration: underline;
 }
-/* @media (max-width:900px) {
+
+.mrg{
+    margin-bottom: 0;
+    padding-bottom: 40px;
+}
+@media (min-width:500px) {
     
-    .col{
-        width:100%;
+    .menu-items,.contact-us,.reserve,.vlog_button{
+        font-size: 3vw;
     }
-} */
+    .mod_title,.head-title{
+        font-size:7vw ;
+    }
+
+    .add-title ,.vlog_title{
+        font-size: 6vw;
+    }
+    .info_title{
+        font-size: 9vw;
+    }
+}
+
+
+ @media (min-width:800px) {
+    
+    .menu-items,.contact-us,.reserve,.vlog_button{
+        font-size: 1.5vw;
+    }
+    .mod_title,.head-title{
+        font-size:4vw;
+    }
+    .add-title ,.vlog_title{
+        font-size: 3.5vw;
+    }
+    .info_title{
+        font-size: 5vw;
+    }
+}
